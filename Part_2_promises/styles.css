@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background-color: green;
+  font-family: Arial, sans-serif;
+  height: 100vh;  
+}
+
+.card-area {
+  position: relative;  
+  height: 200px;
+  
+  width: 100%; 
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+.card-area {
+  position: relative;  
+  height: 300px;  
+  width: 100%;
+}
+
+.card-img {
+  position: absolute;
+  transition: transform 0.5s ease;  
+}
+
